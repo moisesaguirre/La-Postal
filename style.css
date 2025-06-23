@@ -1,75 +1,84 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+body{  
+
     background-color: black;
+    font-family: "REM", sans-serif;
 }
 
-.postal{
-    border: 1px solid white;
+.container{
+
     width: 500px;
-    height: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
     background-color: white;
-    margin: 0 auto;
-    margin-top: 2%;
+      
+}
+
+.container .titulo{
+
+    width: 490px;
+    height: 90px;
+    margin-top: 2px;
+    margin-left: 1%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; 
+
 }
-.titulo{
-   
-    width: 300px;
-    height: 100px;
-    font-family: postal sans-serif;
-    margin-left: 2%;
-    margin-top: 2%;
-}
-.imagen{
-    
-    width: 100px;
-    height: 100px;
-    margin-right: 2%;   
-    margin-top: 2%;
+img {
+  
+    width: 10%;
+    height: 55%;
+    margin-top: 4%;
+    margin-right: 2%;  
 }
 
-img{
-    width: 100%;
-    height: 100%;
-}
-.parrafo{
-    
-    width: 250px;
-    height: 230px;
-    margin-right: 8%;  
-    margin-left: 2%;
-    font-family: 'Times New RoMan', Times, serif;
-    font-size: 10px;
- 
-}
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    
-}
-.lista ul{
-    
-    width: 140px;
-    height:140px;
-    margin-right: 2%;
-    margin-left: 2%;
-    font-family: 'Times New RoMan', Times, serif;
-    font-size: 20px;
-    text-decoration: underline;
-    color: gray;
-       }
+ .body-card{
 
- .button{
+    width: 490px;
+    height: 140px;
+    margin-top: 2px;
+    display:flex;
+    justify-content: space-between; 
+ }
+
+
+
+
+.relleno{
+
     width: 200px;
-    height: 30px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-left: 25%;
-    margin-top: 2%;
-}
-    
-	    
-	   
+    height: 110px;
+    padding: 1%;
+    margin-left: 6px;
+    display: flex;
 
+}
+
+.formulario{
+
+    width: 200px;
+    height: 100px;
+    padding: 3%;
+    margin-top: 2px;
+    
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.footer{
+
+    width: 200px;
+    height: 50px;
+    padding: 1%;
+    
+}
+
+.boton{
+    margin-top: 10px;
+    text-align: center;
+  padding:3%;
+}
